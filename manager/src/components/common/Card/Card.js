@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Card = (props) => {
+const Card = ({ children }) => {
   return (
     <View style={styles.containerStyle}>
-      {props.children}
+      {children}
     </View>
   );
 };
