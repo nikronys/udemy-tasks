@@ -26,7 +26,7 @@ class EmployeeList extends Component {
     return <ListItem employee={employee} />;
   }
 
-  /*static getDerivedStateFromProps(nextProps) {
+  /*componentDidUpdate(nextProps) {
     this.createDataSource(nextProps);
   }
 
